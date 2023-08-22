@@ -7,19 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24CE2C1A2A948B8D00646C53 /* PhotoDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CE2C192A948B8D00646C53 /* PhotoDetailsView.swift */; };
+		24CE2C1C2A950CC400646C53 /* PhotosListCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CE2C1B2A950CC400646C53 /* PhotosListCellViewModel.swift */; };
+		24CE2C1E2A950D6A00646C53 /* PhotosListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CE2C1D2A950D6A00646C53 /* PhotosListCellView.swift */; };
+		24CE2C202A950DB400646C53 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CE2C1F2A950DB400646C53 /* Constants.swift */; };
+		24CE2C222A950F7C00646C53 /* CommonViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CE2C212A950F7C00646C53 /* CommonViewModifiers.swift */; };
+		24CE2C252A950F9F00646C53 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CE2C242A950F9F00646C53 /* UIViewExtension.swift */; };
 		24EC33532A939A01000156A6 /* PhotosListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EC33522A939A01000156A6 /* PhotosListApp.swift */; };
 		24EC33552A939A01000156A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EC33542A939A01000156A6 /* ContentView.swift */; };
 		24EC33572A939A04000156A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24EC33562A939A04000156A6 /* Assets.xcassets */; };
 		24EC335B2A939A04000156A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24EC335A2A939A04000156A6 /* Preview Assets.xcassets */; };
+		24EC33692A939A7F000156A6 /* RestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EC33682A939A7F000156A6 /* RestService.swift */; };
+		24EC336B2A939A89000156A6 /* RestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EC336A2A939A89000156A6 /* RestClient.swift */; };
+		24EC336E2A939ADF000156A6 /* BaseApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EC336D2A939ADF000156A6 /* BaseApiRequest.swift */; };
+		24EC33702A939C15000156A6 /* PhotosListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EC336F2A939C15000156A6 /* PhotosListModel.swift */; };
+		24EC33722A939CE4000156A6 /* GetPhotosListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EC33712A939CE4000156A6 /* GetPhotosListRequest.swift */; };
+		24EC33742A939D9F000156A6 /* PhotosListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EC33732A939D9F000156A6 /* PhotosListView.swift */; };
+		24EC33762A939DAC000156A6 /* PhotosListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EC33752A939DAC000156A6 /* PhotosListViewModel.swift */; };
+		24EC33792A93A05C000156A6 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 24EC33782A93A05C000156A6 /* SDWebImageSwiftUI */; };
+		24EC337C2A93A07B000156A6 /* LoadImageFromURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EC337B2A93A07B000156A6 /* LoadImageFromURL.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		24CE2C192A948B8D00646C53 /* PhotoDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailsView.swift; sourceTree = "<group>"; };
+		24CE2C1B2A950CC400646C53 /* PhotosListCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosListCellViewModel.swift; sourceTree = "<group>"; };
+		24CE2C1D2A950D6A00646C53 /* PhotosListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosListCellView.swift; sourceTree = "<group>"; };
+		24CE2C1F2A950DB400646C53 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		24CE2C212A950F7C00646C53 /* CommonViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonViewModifiers.swift; sourceTree = "<group>"; };
+		24CE2C242A950F9F00646C53 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		24EC334F2A939A01000156A6 /* PhotosList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotosList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24EC33522A939A01000156A6 /* PhotosListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosListApp.swift; sourceTree = "<group>"; };
 		24EC33542A939A01000156A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		24EC33562A939A04000156A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24EC33582A939A04000156A6 /* PhotosList.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PhotosList.entitlements; sourceTree = "<group>"; };
 		24EC335A2A939A04000156A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		24EC33682A939A7F000156A6 /* RestService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestService.swift; sourceTree = "<group>"; };
+		24EC336A2A939A89000156A6 /* RestClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestClient.swift; sourceTree = "<group>"; };
+		24EC336D2A939ADF000156A6 /* BaseApiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseApiRequest.swift; sourceTree = "<group>"; };
+		24EC336F2A939C15000156A6 /* PhotosListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosListModel.swift; sourceTree = "<group>"; };
+		24EC33712A939CE4000156A6 /* GetPhotosListRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPhotosListRequest.swift; sourceTree = "<group>"; };
+		24EC33732A939D9F000156A6 /* PhotosListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosListView.swift; sourceTree = "<group>"; };
+		24EC33752A939DAC000156A6 /* PhotosListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosListViewModel.swift; sourceTree = "<group>"; };
+		24EC337B2A93A07B000156A6 /* LoadImageFromURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadImageFromURL.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,12 +56,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24EC33792A93A05C000156A6 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24CE2C232A950F9100646C53 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				24CE2C242A950F9F00646C53 /* UIViewExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		24EC33462A939A01000156A6 = {
 			isa = PBXGroup;
 			children = (
@@ -52,6 +90,10 @@
 		24EC33512A939A01000156A6 /* PhotosList */ = {
 			isa = PBXGroup;
 			children = (
+				24CE2C232A950F9100646C53 /* Extension */,
+				24EC337A2A93A067000156A6 /* Utils */,
+				24EC33642A939A4E000156A6 /* Features */,
+				24EC33672A939A6E000156A6 /* Network */,
 				24EC33522A939A01000156A6 /* PhotosListApp.swift */,
 				24EC33542A939A01000156A6 /* ContentView.swift */,
 				24EC33562A939A04000156A6 /* Assets.xcassets */,
@@ -67,6 +109,80 @@
 				24EC335A2A939A04000156A6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		24EC33622A939A1B000156A6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				24EC33732A939D9F000156A6 /* PhotosListView.swift */,
+				24CE2C192A948B8D00646C53 /* PhotoDetailsView.swift */,
+				24CE2C1D2A950D6A00646C53 /* PhotosListCellView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		24EC33632A939A3A000156A6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				24EC33752A939DAC000156A6 /* PhotosListViewModel.swift */,
+				24CE2C1B2A950CC400646C53 /* PhotosListCellViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		24EC33642A939A4E000156A6 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				24EC33652A939A56000156A6 /* PhotosList */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		24EC33652A939A56000156A6 /* PhotosList */ = {
+			isa = PBXGroup;
+			children = (
+				24EC33662A939A68000156A6 /* Model */,
+				24EC33632A939A3A000156A6 /* ViewModel */,
+				24EC33622A939A1B000156A6 /* View */,
+			);
+			path = PhotosList;
+			sourceTree = "<group>";
+		};
+		24EC33662A939A68000156A6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				24EC336F2A939C15000156A6 /* PhotosListModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		24EC33672A939A6E000156A6 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				24EC336C2A939ACE000156A6 /* Request */,
+				24EC33682A939A7F000156A6 /* RestService.swift */,
+				24EC336A2A939A89000156A6 /* RestClient.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		24EC336C2A939ACE000156A6 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				24EC336D2A939ADF000156A6 /* BaseApiRequest.swift */,
+				24EC33712A939CE4000156A6 /* GetPhotosListRequest.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		24EC337A2A93A067000156A6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				24EC337B2A93A07B000156A6 /* LoadImageFromURL.swift */,
+				24CE2C1F2A950DB400646C53 /* Constants.swift */,
+				24CE2C212A950F7C00646C53 /* CommonViewModifiers.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +201,9 @@
 			dependencies = (
 			);
 			name = PhotosList;
+			packageProductDependencies = (
+				24EC33782A93A05C000156A6 /* SDWebImageSwiftUI */,
+			);
 			productName = PhotosList;
 			productReference = 24EC334F2A939A01000156A6 /* PhotosList.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +232,9 @@
 				Base,
 			);
 			mainGroup = 24EC33462A939A01000156A6;
+			packageReferences = (
+				24EC33772A93A05C000156A6 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 24EC33502A939A01000156A6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,8 +261,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24EC336B2A939A89000156A6 /* RestClient.swift in Sources */,
 				24EC33552A939A01000156A6 /* ContentView.swift in Sources */,
+				24EC33702A939C15000156A6 /* PhotosListModel.swift in Sources */,
+				24EC33742A939D9F000156A6 /* PhotosListView.swift in Sources */,
 				24EC33532A939A01000156A6 /* PhotosListApp.swift in Sources */,
+				24CE2C1C2A950CC400646C53 /* PhotosListCellViewModel.swift in Sources */,
+				24CE2C252A950F9F00646C53 /* UIViewExtension.swift in Sources */,
+				24CE2C1E2A950D6A00646C53 /* PhotosListCellView.swift in Sources */,
+				24CE2C222A950F7C00646C53 /* CommonViewModifiers.swift in Sources */,
+				24EC33762A939DAC000156A6 /* PhotosListViewModel.swift in Sources */,
+				24EC336E2A939ADF000156A6 /* BaseApiRequest.swift in Sources */,
+				24CE2C1A2A948B8D00646C53 /* PhotoDetailsView.swift in Sources */,
+				24EC337C2A93A07B000156A6 /* LoadImageFromURL.swift in Sources */,
+				24CE2C202A950DB400646C53 /* Constants.swift in Sources */,
+				24EC33692A939A7F000156A6 /* RestService.swift in Sources */,
+				24EC33722A939CE4000156A6 /* GetPhotosListRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +415,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
@@ -317,7 +453,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
@@ -354,6 +490,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		24EC33772A93A05C000156A6 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		24EC33782A93A05C000156A6 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 24EC33772A93A05C000156A6 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 24EC33472A939A01000156A6 /* Project object */;
 }

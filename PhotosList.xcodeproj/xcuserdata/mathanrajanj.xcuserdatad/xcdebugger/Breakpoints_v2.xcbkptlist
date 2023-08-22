@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9F98AF16-F978-4824-B052-77343DEBDA8E"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "74EFC2B6-6543-4354-A48F-F02C3A286597"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PhotosList/Features/PhotosList/ViewModel/PhotosListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "getPhotosList()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "74EFC2B6-6543-4354-A48F-F02C3A286597 - 518407058276c0ee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for PhotosList.PhotosListViewModel.getPhotosList() async -&gt; ()"
+                  moduleName = "PhotosList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mathanrajanj/Documents/Personal/PhotosList/PhotosList/Features/PhotosList/ViewModel/PhotosListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "74EFC2B6-6543-4354-A48F-F02C3A286597 - 1345124f4dea2157"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for PhotosList.PhotosListViewModel.getPhotosList() async -&gt; ()"
+                  moduleName = "PhotosList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mathanrajanj/Documents/Personal/PhotosList/PhotosList/Features/PhotosList/ViewModel/PhotosListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "74EFC2B6-6543-4354-A48F-F02C3A286597 - 69f4574fa96d1605"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) suspend resume partial function for PhotosList.PhotosListViewModel.getPhotosList() async -&gt; ()"
+                  moduleName = "PhotosList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mathanrajanj/Documents/Personal/PhotosList/PhotosList/Features/PhotosList/ViewModel/PhotosListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "60">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "604073A4-4B87-43D0-8A8B-9828A139BA90"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PhotosList/Features/PhotosList/ViewModel/PhotosListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "getPhotosList()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "604073A4-4B87-43D0-8A8B-9828A139BA90 - ceafece708f23ba1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for PhotosList.PhotosListViewModel.getPhotosList() async -&gt; ()"
+                  moduleName = "PhotosList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mathanrajanj/Documents/Personal/PhotosList/PhotosList/Features/PhotosList/ViewModel/PhotosListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "604073A4-4B87-43D0-8A8B-9828A139BA90 - 69f4574fa96d15a6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) suspend resume partial function for PhotosList.PhotosListViewModel.getPhotosList() async -&gt; ()"
+                  moduleName = "PhotosList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mathanrajanj/Documents/Personal/PhotosList/PhotosList/Features/PhotosList/ViewModel/PhotosListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "604073A4-4B87-43D0-8A8B-9828A139BA90 - 69f4574fa96d15a6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) suspend resume partial function for PhotosList.PhotosListViewModel.getPhotosList() async -&gt; ()"
+                  moduleName = "PhotosList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mathanrajanj/Documents/Personal/PhotosList/PhotosList/Features/PhotosList/ViewModel/PhotosListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "408">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C2AF8ED2-FD1D-4914-9DE6-B88344E43153"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PhotosList/Network/RestClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "sendRequest(request:type:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C2AF8ED2-FD1D-4914-9DE6-B88344E43153 - 6f9df9b364528877"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for PhotosList.RestClient.sendRequest&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(request: PhotosList.BaseApiRequest, type: &#x3c4;_0_0.Type) async throws -&gt; &#x3c4;_0_0"
+                  moduleName = "PhotosList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mathanrajanj/Documents/Personal/PhotosList/PhotosList/Network/RestClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "624">
+               </Location>
+               <Location
+                  uuid = "C2AF8ED2-FD1D-4914-9DE6-B88344E43153 - 1fd5c1e8ff652a76"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for PhotosList.RestClient.sendRequest&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(request: PhotosList.BaseApiRequest, type: &#x3c4;_0_0.Type) async throws -&gt; &#x3c4;_0_0"
+                  moduleName = "PhotosList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mathanrajanj/Documents/Personal/PhotosList/PhotosList/Network/RestClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "596">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CA174C09-C95B-44F4-AFE3-5B2C9F131480"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PhotosList/Network/RestClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "sendRequest(request:type:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FAE0F99E-5D7F-41F9-A83E-284E64D2F314"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PhotosList/Features/PhotosList/View/PhotosListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
